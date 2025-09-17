@@ -4,7 +4,6 @@
 <p style="color:#6a737d; font-style:italic;">
   Presented By: Pinnacle Ventures (Alina, Daniel, Leon, Nigel, Rei, Tiffany)
 </p>
-![hdb_photo](https://github.com/user-attachments/assets/7db773b7-0dd3-4f26-80b6-a84e0eeadf0e)
 
 
 ## Description
