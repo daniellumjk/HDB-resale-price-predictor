@@ -7,8 +7,8 @@ from PIL import Image
 import plotly.express as px
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('data.csv')
-rmse = pd.read_csv('model_metrics.csv')
+df = pd.read_csv('/mount/src/hdb-resale-price-predictor/streamlit/data.csv')
+rmse = pd.read_csv('/mount/src/hdb-resale-price-predictor/streamlit/model_metrics.csv')
 
 # --- Helper Functions ---
 def get_user_input(profile_choice):
@@ -272,7 +272,7 @@ st.markdown(
 )
 
 # --- Load Model ---
-with open("model.pkl", "rb") as f:
+with open("/mount/src/hdb-resale-price-predictor/streamlit/model.pkl", "rb") as f:
     model_pipeline = pickle.load(f)
 
 # --- Containers ---
