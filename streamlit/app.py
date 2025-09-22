@@ -272,8 +272,7 @@ st.markdown(
 )
 
 # --- Load Model ---
-file_path = '/mount/src/hdb-resale-price-predictor/streamlit/model.pkl'
-with open(file_path, "rb") as f:
+with open('/mount/src/hdb-resale-price-predictor/streamlit/model.pkl', "rb") as f:
     model_pipeline = pickle.load(f)
 
 # --- Containers ---
