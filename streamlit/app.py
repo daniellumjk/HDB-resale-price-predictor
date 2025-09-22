@@ -288,7 +288,7 @@ data_dict_container = st.container(border=True)
 with header_container:
     col1, col2 = st.columns([1, 4])
     with col1:
-        logo = Image.open('pinnacle_logo.png')
+        logo = Image.open('/mount/src/hdb-resale-price-predictor/streamlit/pinnacle_logo.png')
         st.image(logo, use_container_width=True)
     with col2:
         st.markdown("<h1 style='text-align: center; class='header-title'>Beyond The Flat</h1>", unsafe_allow_html=True)
