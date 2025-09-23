@@ -11,6 +11,10 @@ HDB resale value isn’t just “near an MRT” anymore—it’s a mix of micro 
 
 The product gives a price estimate with reasons: which factors added or shaved value (e.g., lease age, transport/amenity proximity, school pressure, MRT development). It’s fast, defensible, and lets agents and buyers make data-backed decisions at a glance.
 
+## App link
+Try it out yourself! 
+https://hdb-resale-price-predictor-micro-macro-features.streamlit.app/
+
 ## Data Dictionary
 The following table details the data and their descriptions:
 | Column Name	| Description	| Data Type |
